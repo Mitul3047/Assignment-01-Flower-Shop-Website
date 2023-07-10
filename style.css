@@ -5,6 +5,7 @@
 
 section {
     margin-bottom: 128px;
+    /* width: 100%; */
 }
 
 
@@ -13,7 +14,7 @@ section {
     justify-content: space-around;
     align-items: center;
     /* gap: 97px; */
-    height: 850px;
+    height: 100vh;
     background: rgba(229, 84, 115, 0.10);
     /* width: 1920px; */
     /* padding:  50px 240px 0px 240px; */
@@ -32,12 +33,12 @@ section {
     font-weight: 400;
     line-height: 30px;
     margin-bottom: 32px;
+    width: 634px;
 }
 
 .banner-img {
     width: 635px;
-    height: 800px;
-
+    height: 90vh
 }
 
 .btn-primary {
@@ -48,6 +49,26 @@ section {
     background: #E55473;
     padding: 20px 43px;
     border: 0px;
+}
+
+/* features section */
+
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.back {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.img-pink {
+
+    width: 310px;
+    height: 428px;
 }
 
 /* Seals Section */
@@ -84,6 +105,41 @@ section {
 
 }
 
+/* instagram section */
+
+.insta-container {
+    border: 2px solid red;
+    text-align: center;
+    width: 1440px;
+    /* height: 449px; */
+    margin: 0 auto;
+}
+
+.insta-img {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    gap: 24px;
+}
+
+.insta-title {
+    margin-bottom: 24px;
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.insta-description {
+    margin-bottom: 48px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 594px;
+    margin: 0 auto;
+    margin-bottom: 48px;
+}
+
 /* subscribe section */
 
 .subscribe-conation {
@@ -108,22 +164,22 @@ section {
     border: 0;
     padding-left: 22px;
     color: rgba(39, 39, 39, 0.60);
-font-size: 16px;
-font-weight: 400;
-border-radius: 8px;
-margin-right: 16px;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 8px;
+    margin-right: 16px;
 
 
 }
 
-.subscribe-title{
+.subscribe-title {
     color: #272727;
-font-size: 40px;
-font-weight: 800;
-margin-bottom: 16px;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 16px;
 }
 
-.subscribe-descrription{
+.subscribe-descrription {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     font-weight: 400;
