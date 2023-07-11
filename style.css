@@ -1,3 +1,8 @@
+
+
+
+
+
 /* ------------------------------commmon ------------------------------------ */
 
 
@@ -149,6 +154,8 @@ section {
     padding: 110px 78px 0px 78px;
 }
 
+
+
 .flower-name {
     color: #272727;
     text-align: center;
@@ -161,7 +168,7 @@ section {
     margin-top: 34px;
 }
 
-/* ----------------------------support section------------------------ */
+/* -----------------------------support section------------------------ */
 
 .support-container {
     display: flex;
