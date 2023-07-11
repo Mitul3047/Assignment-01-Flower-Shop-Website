@@ -30,6 +30,20 @@ section {
     margin-right: 16px;
 }
 
+.btn-primary {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 43px;
+    border: 0px;
+}
+.btn-primary:hover{
+    background-color: #f5deb3;
+    color: #E55473;
+}
+
 /*---------------------------------------- banner section------------------------------------------ */
 
 
@@ -69,15 +83,6 @@ section {
     /* padding: 0px 78px; */
 }
 
-.btn-primary {
-    color: #FFF;
-    font-size: 20px;
-    font-weight: 700;
-    border-radius: 8px;
-    background: #E55473;
-    padding: 20px 43px;
-    border: 0px;
-}
 
 /* ----------------------------features section=------------------------------------- */
 
