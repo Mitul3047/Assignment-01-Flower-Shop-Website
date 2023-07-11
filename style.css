@@ -35,6 +35,7 @@ section {
 
 .banner-section {
     width: 1920px;
+    height: 850px;
 }
 
 .bannner-container {
@@ -42,11 +43,8 @@ section {
     justify-content: space-around;
     align-items: center;
     gap: 97px;
-    height: 850px;
     background: rgba(229, 84, 115, 0.10);
-
-    height: 850px;
-    padding: 0 240px;
+    padding: 50px 240px 0px 240px;
 }
 
 .banner-title {
@@ -66,7 +64,8 @@ section {
 }
 
 .banner-img {
-    margin-top: 17px;
+    /* margin-top: 17px; */
+    padding-top: 50px 0;
     width: 635px;
     height: 800px
 }
@@ -83,24 +82,75 @@ section {
 
 /* ----------------------------features section=------------------------------------- */
 
-/* .image-container {
+.feature-container {
+    text-align: center;
+
+}
+
+.feature-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px ;
+
+}
+
+.feature-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 48px;
+    
+}
+
+
+.freature-img {
     display: flex;
     justify-content: space-around;
-    align-items: center;
-
+    padding: 0px 240px;
+    gap: 24px;
+}
+.flower-name{
+    margin-top: 34px;
 }
 
-.back {
+.bg-1 {
+    width: 464px;
+    height: 538px;
     border-radius: 300px 300px 0px 0px;
-    background: rgba(167, 33, 98, 0.15);
+    background-color: rgba(167, 33, 98, 0.15);
 }
 
-.img-pink {
+.bg-2 {
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background-color: rgba(5, 151, 160, 0.15);
+}
 
+.bg-3 {
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background-color: rgba(71, 125, 17, 0.15);
+}
+
+img {
     width: 310px;
     height: 428px;
-} */
+    padding: 110px 78px 0px 78px;
+}
 
+.feature-container .freature-img p{
+    color: #272727;
+text-align: center;
+font-family: Lato;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 35px;
+text-decoration-line: underline;
 /* ----------------------------support section------------------------ */
 
 .support-container {
@@ -113,7 +163,7 @@ section {
     text-align: center;
 }
 
-.support-details{
+.support-details {
     margin-top: 24px;
     color: rgba(39, 39, 39, 0.80);
     font-size: 24px;
@@ -163,7 +213,7 @@ section {
 }
 
 
-/* ------------------------------------------login sectio-------------------------  */
+/* ------------------------------------------login section-------------------------  */
 
 
 .login-container {
@@ -172,7 +222,9 @@ section {
     align-items: center;
     flex-direction: column;
     gap: 32px;
-    background: rgba(5, 151, 160, 0.15);
+    /* background: linear-gradient(45deg,rgba(236, 8, 141, 0.432), rgba(255, 255, 255, 0.26)); */
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
     height: 620px;
 }
 
