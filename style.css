@@ -9,7 +9,7 @@
 
 section {
     margin-bottom: 128px;
-    /* width: 100%; */
+    
 }
 
 .section-alignment {
@@ -231,7 +231,6 @@ section {
     align-items: center;
     flex-direction: column;
     gap: 32px;
-    /* background: linear-gradient(45deg,rgba(236, 8, 141, 0.432), rgba(255, 255, 255, 0.26)); */
     background: rgb(238, 174, 202);
     background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
     height: 620px;
@@ -297,20 +296,6 @@ section {
     background-position: cover;
 
 }
-
-/* .subscribe-conation input {
-    width: 700px;
-    height: 64px;
-    border: 0;
-    padding-left: 22px;
-    color: rgba(39, 39, 39, 0.60);
-    font-size: 16px;
-    font-weight: 400;
-    border-radius: 8px;
-    margin-right: 16px;
-
-
-} */
 
 .subscribe-title {
     color: #272727;
